@@ -9,13 +9,15 @@ startSection: inverse
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## We're calling for presentations for OWASP AppSec Israel 2026
+## Call for presentations — 2026 archive
+
+**Submissions for AppSec Israel 2026 are closed.** The original topics and guidance are retained below.
 
 We're looking for fresh, vendor-neutral talks that span all levels of expertise-whether you're presenting cutting-edge research, sharing lessons from the trenches, or showcasing real-world case studies.
 
 ---
 
-<a href="{{cfg.links.cfp}}" class="button button_type_white" target="_blank">Submit your talk</a>
+
 
 </div>
 </div>
@@ -127,7 +129,7 @@ Whether you’re a first-time speaker or a seasoned pro, this is your chance to 
 </div>
 
 <div class="cfp-button-wrapper">
-<a href="{{cfg.links.cfp}}" class="button button_type_main" target="_blank">Submit your talk</a>
+
 </div>
 
 

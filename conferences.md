@@ -8,7 +8,7 @@ section: conferences
 
 # Past conferences
 
-Explore the history of AppSec Israel. [Visit the 2026 conference]({{ '/conference.html' | relative_url }}).
+Explore the history of AppSec Israel. [Visit the upcoming 2027 conference]({{ '/conference.html' | relative_url }}).
 
 The archive below is adapted from the [OWASP Israel chapter's conference history](https://github.com/OWASP/www-chapter-israel/blob/main/tab_conferences.md). Attendance figures reflect the chapter's historical reports. Older websites may no longer be available.
 
@@ -18,6 +18,7 @@ The archive below is adapted from the [OWASP Israel chapter's conference history
 
 | Name | Date | Location | Attendance |
 | ---- | ---- | -------- | ---------- |
+| **[AppSec Israel 2026]({{ '/2026/' | relative_url }})** | October 6, 2026 | Tel Aviv Expo, Pavilion 10 | — |
 | **[AppSec IL 2025]({{ '/2025/' | relative_url }})**   | June 5, 2025 | Expo Tel Aviv | **Over 800 attendees** |
 | **[AppSec IL 2023]({{ '/2023/' | relative_url }})**   | May 16-17, 2023 | Expo Tel Aviv | **nearly 800 attendees** |
 | **[AppSec IL 2020](https://2020.appsecil.org/)**   | Oct 27-28, 2020 | **Digital event** | **nearly 1000 attendees\!** |

@@ -9,7 +9,9 @@ startSection: lblue
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## Registration
+## Registration — 2026 archive
+
+**AppSec Israel 2026 has ended. Registration is closed.** The information below records the 2026 ticket policy.
 
 For many years, OWASP AppSecIL was completely free to attend, a community conference powered entirely by volunteers and generous sponsors. As the conference grew, we moved into more professional venues and our expenses rose accordingly. Today, AppSecIL has become the largest single-day application security conference in the world, and accommodating an event of this scale is increasingly challenging. There are very few venues that can host so many attendees, provide multiple parallel tracks in comfort, and still remain reasonably located and accessible.
 
@@ -29,15 +31,4 @@ Regular individual rate: 130 ₪
 </div>
 </section>
 
-<section class="page-section page-section_lblue">
-<div class="page-section__inner registration-iframe-wrapper">
 
-<iframe 
-  id="registration-form"
-  src="https://appsecil2026.forms-wizard.biz/users/new" 
-  title="Registration Form"
-  class="registration-iframe">
-</iframe>
-
-</div>
-</section>

@@ -10,8 +10,7 @@ Feel free to contribute anything that will improve the Conference site via PR - 
 
 ### 2026 photo album
 
-The album page is `2026/photos.md`, published at `/photos.html` (linked as
-`./photos`, following the other 2026 pages). It shows a coming-soon message
+The album page is `2026/photos.md`, published at `/2026/photos.html`. It shows a coming-soon message
 until photos are added.
 
 Copy photos into `assets/img/2026/album/` and rebuild the site. Jekyll discovers
@@ -41,7 +40,7 @@ From a terminal in this repository, run:
 .\preview.bat
 ```
 
-Open `http://127.0.0.1:4000/photos.html`. The preview rebuilds when files change;
+Open `http://127.0.0.1:4000/2026/photos.html`. The preview rebuilds when files change;
 refresh the browser to see updates. Press Ctrl+C to stop it. To only build the
 site, run `.\preview.bat -Build`. To use another port, run
 `.\preview.bat -Port 4001`.
@@ -63,16 +62,21 @@ includes. `assets/css/chapter.css` adds only chapter-specific layout and archive
 formatting; it does not define a separate visual theme.
 
 - `/`: shared landing page
-- `/conference.html`: existing 2026 conference overview
-- `/conference/` and `/2026/`: aliases to the conference overview
+- `/conference.html`: upcoming 2027 conference overview
+- `/conference/` and `/2027/`: aliases to the upcoming conference
+- `/2026/`: archived 2026 overview and year-specific detail pages
 - `/chapter/`: mailing list, meetup information, and ways to participate
 - `/chapter/meetups/`: historical meeting records and recordings
 - `/chapter/about/`: chapter people and Hebrew resources
 - `/conferences/`: annual conference history
 
-Existing root conference detail URLs (registration, agenda, sponsors, photos,
-and code of conduct) are preserved. Conference navigation anchors now point
-explicitly to the conference overview. Historical 2023 and 2025 sites are unchanged.
+Current root agenda, registration, sponsors, and CFP pages are 2027 placeholders.
+The old root photo URL redirects to `/2026/photos.html`. 2026 records now live
+under `/2026/`; archive layouts resolve shared assets from the site root.
+Live 2026 registration and CFP actions have been removed. Historical 2023 and
+2025 sites are unchanged. `current_year` is 2027; upcoming dates and venue are
+maintained in `_data/year-2027/config.yml`. The visual design still uses the
+existing 2026 stylesheet, independently of the conference's current year.
 
 Chapter content was adapted from OWASP/www-chapter-israel. Keep mailing list,
 forms, contacts, and resources in the chapter pages current. Past Meetup links
