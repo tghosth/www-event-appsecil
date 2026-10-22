@@ -112,18 +112,3 @@ registration forms or dates are presented as 2027 information.
 
 2025 and 2026 retain year-specific navigation and historical page content.
 Changes to the current shared menu should be made in `_data/site-menu.yml`.
-
-### GitHub Pages workflow
-
-`.github/workflows/pages.yml` builds the same site using the Pages Jekyll
-builder and current checkout, configuration, artifact-upload and deployment
-actions. The upload action uses the Node.js 24-compatible artifact action,
-replacing the Node.js 20 dependency in GitHub's generated branch workflow.
-
-To activate it, select **GitHub Actions** as the build source in
-**Settings → Pages**. The old **Deploy from a branch** source uses a workflow
-maintained by GitHub; repository changes cannot update its action versions.
-The workflow runs on pushes to `main` and `feature/chapter-conference-landing`,
-and supports manual runs. Configure the `github-pages` environment to allow
-the branch being previewed. Once this feature is merged, remove its branch
-entry if it should no longer deploy.
