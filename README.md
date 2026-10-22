@@ -86,8 +86,9 @@ existing 2026 stylesheet, independently of the conference's current year.
 Chapter content was adapted from OWASP/www-chapter-israel. Keep mailing list,
 forms, contacts, and resources in the chapter pages current. Past Meetup links
 are retained as historical references; announcements use the mailing list.
-Legacy meeting conflicts are preserved with an archive note. The invalid
-“May 26–39, 2019” conference date is shown as “May 2019” pending verification.
+Imported meeting and conference records retain the source wording and dates.
+Only local navigation links and display formatting are adapted. No editorial
+warnings or provenance notes are added to the published chapter pages.
 Historical sponsor graphics and stale announcements were not imported.
 
 For a preview under a project URL, build with a base URL:

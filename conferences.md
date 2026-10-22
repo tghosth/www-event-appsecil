@@ -8,13 +8,7 @@ section: conferences
 
 # Past conferences
 
-Explore the history of AppSec Israel. [Visit the upcoming 2027 conference]({{ '/conference.html' | relative_url }}).
-
-The archive below is adapted from the [OWASP Israel chapter's conference history](https://github.com/OWASP/www-chapter-israel/blob/main/tab_conferences.md). Attendance figures reflect the chapter's historical reports. Older websites may no longer be available.
-
 <div class="table-scroll" role="region" aria-label="Previous annual conferences" tabindex="0" markdown="1">
-
-
 
 | Name | Date | Location | Attendance |
 | ---- | ---- | -------- | ---------- |
@@ -22,7 +16,7 @@ The archive below is adapted from the [OWASP Israel chapter's conference history
 | **[AppSec IL 2025]({{ '/2025/' | relative_url }})**   | June 5, 2025 | Expo Tel Aviv | **Over 800 attendees** |
 | **[AppSec IL 2023]({{ '/2023/' | relative_url }})**   | May 16-17, 2023 | Expo Tel Aviv | **nearly 800 attendees** |
 | **[AppSec IL 2020](https://2020.appsecil.org/)**   | Oct 27-28, 2020 | **Digital event** | **nearly 1000 attendees\!** |
-| **[AppSec Global 2019](https://telaviv.appsecglobal.org)**   | May 2019 | **InterContinental David Tel Aviv** | **over 500 attendees** |
+| **[AppSec Global 2019](https://telaviv.appsecglobal.org)**   | May 26-39, 2019 | **InterContinental David Tel Aviv** | **over 500 attendees** |
 | **[AppSec Israel 2018](https://2018.appsecil.org/)**   | September 5-6, 2018 | Tel Aviv University | **over 900 attendees\!** |
 | **[AppSec Israel 2017](https://2017.appsecil.org/)**   | October 17-18, 2017 | College of Management | **800 attendees** |
 | **[AppSec Israel 2016](https://wiki.owasp.org/index.php/AppSec_Israel_2016)**   | September 19th 2016 | College of Management, Rishon | **650 attendees** |
@@ -36,7 +30,6 @@ The archive below is adapted from the [OWASP Israel chapter's conference history
 | **[OWASP Israel 2008](https://wiki.owasp.org/index.php/OWASP_Israel_2008_Conference_at_the_Interdisciplinary_Center_Herzliya)** | September 14th, 2008 | Interdisciplinary Center Herzliya | **250 attendees** |
 | **OWASP Israel at the [IDC Security Road Show](http://www.idc.co.il/?showproduct=31108&content_lang=ENG)** <br>OWASP sponsored the IDC Security Road Show event in Israel. <br>Thanks for Iris Lev-Ari and Tomer Teller for the help in the OWASP booth. | June 3rd, 2008 |  |   |
 | **[OWASP Israel 2007 conference](https://wiki.owasp.org/index.php/OWASP_Israel_2007_Conference)** <br> The 1st official OWASP conference in Israel! <br>The conference really set itself as an event you must come to if you have anything to do with application security.  | Dec 3rd 2007 | Interdisciplinary Center (IDC) Herzliya |            |
-
 
 </div>
 </div>

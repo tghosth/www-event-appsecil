@@ -26,8 +26,6 @@ section: chapter
 
 ## Hebrew resources
 
-These translations are historical resources; the edition is part of the title.
-
 - [OWASP Top 10 — 2013 edition, Hebrew (PDF)](https://wiki.owasp.org/images/1/1b/OWASP_Top_10_2013-Hebrew.pdf).
 - [OWASP Risk Rating Methodology — Hebrew (PDF)](https://www.owasp.org/images/6/61/OWASP_Risk_Rating_Methodology-Hebrew.pdf), translated by Tal Argoni from TriadSec.
 
@@ -38,7 +36,5 @@ The Open Worldwide Application Security Project is a nonprofit foundation workin
 [Explore OWASP projects](https://owasp.org/projects/), [learn about membership](https://owasp.org/join), or [support OWASP](https://owasp.org/donate/). When joining, select the Israel chapter to associate your membership with the local chapter.
 
 Chapter leaders follow the [OWASP policies and Chapter Leader Handbook](https://owasp.org/www-policy/). Financial contributions should use OWASP's authorized donation channels.
-
-People and resources are adapted from the [official OWASP Israel chapter](https://owasp.org/www-chapter-israel/).
 
 </div>

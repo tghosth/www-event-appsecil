@@ -8,11 +8,13 @@ section: chapter
 
 # Chapter meetup archive
 
-Historical meeting details are preserved from the [OWASP Israel chapter repository](https://github.com/OWASP/www-chapter-israel/blob/main/tab_meetings.md). Some legacy entries contain conflicting dates or reused event links; they should be treated as historical records rather than current registration information.
-
 <div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0" markdown="1">
 
-The links below document past events. For future meetup announcements, [join the chapter mailing list]({{ '/chapter/#mailing-list' | relative_url }}).
+## Previous Meetings
+
+Past events, starting from 2016 can be found in <a href="https://www.meetup.com/OWASP-Israel/events/past/">OWASP-Israel</a> meetup group
+
+
 
 | Name  | Date  | Location   | Channel |
 |---------------- | ------------------------------ | -------------------------- | -----------------------------|
@@ -30,7 +32,7 @@ The links below document past events. For future meetup announcements, [join the
 | [OWASP IL Meetup Dec 2021](https://www.meetup.com/OWASP-Israel/events/282521101/) | Dec 27, 2021        | Apiiro office in Tel Aviv-Yafo  | [here](https://www.youtube.com/watch?v=-PvE682PII8&list=PLA4gj-PiNukdydWyr1_FxOo0ZlQYiBvQt) |
 |[Online OWASP Israel March 2020](https://www.meetup.com/OWASP-Israel/events/269501314/)| March 24, 2020| PayU online event||
 |Workshop for members on [Docker Image security](https://www.meetup.com/OWASP-Israel/events/268461033/)|February 18, 2020| Bridgecrew office||
-|OWASP Chapters All Day (24hr conference) - hour 21|June 6, 2020| OWASP online event|[here](https://www.youtube.com/watch?v=jZs89NORky4)|
+|OWASP Chapters All Day (24hr conference) - hour 21|Jube 6, 2020| OWASP online event|[here](https://www.youtube.com/watch?v=jZs89NORky4)|
 
 ### Previous Meetups
 
@@ -40,7 +42,7 @@ The links below document past events. For future meetup announcements, [join the
   <col width="250">
   <col width="150">
 <thead>
-<tr class="header">
+<tr class="table-header">
 <th><p>Name</p></th>
 <th><p>Date</p></th>
 <th><p>Location</p></th>
@@ -91,7 +93,7 @@ The links below document past events. For future meetup announcements, [join the
 <td><p>178 participants</p></td>
 </tr>
 <tr class="odd">
-<td><p>OWASP Israel February 2019</p></td>
+<td><p>OWASP Israel February 201</p></td>
 <td><p>February 12, 2019</p></td>
 <td><p>Perimeterx Office in Tel Aviv</p></td>
 <td><p>155 participants</p></td>
@@ -205,7 +207,7 @@ The links below document past events. For future meetup announcements, [join the
 <td><p>70 attendees</p></td>
 </tr>
 <tr class="odd">
-<td><p>OWASP Israel Jan-2010</p></td>
+<td><p>title=>OWASP Israel Jan-2010</p></td>
 <td><p>Jan 12th, 2010</p></td>
 <td><p>Breach Security in Herzliya</p></td>
 <td><p>60 attendees</p></td>
@@ -236,9 +238,6 @@ The links below document past events. For future meetup announcements, [join the
 </tr>
 </tbody>
 </table>
-
-
-
 
 </div>
 </div>
