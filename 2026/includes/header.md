@@ -12,10 +12,10 @@
             <ul class="mainmenu__list">
                 {% for menu in site.data.year-2026.menus %}
                 <li>
-                    <a href="{{ menu.url }}">{{menu.title}}</a>
+                    <a href="{{ menu.url | relative_url }}">{{menu.title}}</a>
                 </li>
                 {% endfor %}
-                <li class="mainmenu__item_with-children"><a href="#">Previous events</a>
+                <li class="mainmenu__item_with-children"><a href="{{ '/conferences/' | relative_url }}">Past conferences</a>
                     <ul class="mainmenu__submenu">
                         {% for event in site.data.prevyears %}
                         <li>
@@ -40,7 +40,7 @@
             <ul class="mobile-menu__list">
                 {% for menu in site.data.year-2026.menus %}
                 <li>
-                    <a href="{{ menu.url }}" class="mobile-menu__link">{{menu.title}}</a>
+                    <a href="{{ menu.url | relative_url }}" class="mobile-menu__link">{{menu.title}}</a>
                 </li>
                 {% endfor %}
                 <li class="mobile-menu__item_with-children"><a href="#">Previous events</a>

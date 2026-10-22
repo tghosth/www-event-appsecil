@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | escape }}{% unless page.section == 'home' %} | OWASP Israel{% endunless %}</title>
+  <meta name="description" content="{{ page.description | default: 'OWASP Israel chapter meetups, resources, and ways to get involved.' | escape }}">
+  <meta name="theme-color" content="#142d4e">
+  <link rel="stylesheet" href="{{ '/assets/css/chapter.css' | relative_url }}">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="OWASP Israel home">OWASP <span>Israel</span></a>
+    <nav aria-label="Main navigation">
+      <a href="{{ '/' | relative_url }}"{% if page.section == 'home' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ '/conference.html' | relative_url }}">Conference</a>
+      <a href="{{ '/chapter/' | relative_url }}"{% if page.section == 'chapter' %} aria-current="page"{% endif %}>Chapter</a>
+      <a href="{{ '/conferences/' | relative_url }}"{% if page.section == 'conferences' %} aria-current="page"{% endif %}>Past conferences</a>
+    </nav>
+  </header>
+  <main id="main" class="site-main" tabindex="-1">
+    {% if page.section == 'chapter' %}
+    <nav class="chapter-nav" aria-label="Chapter navigation">
+      <a href="{{ '/chapter/' | relative_url }}">Overview</a>
+      <a href="{{ '/chapter/meetups/' | relative_url }}">Meetup archive</a>
+      <a href="{{ '/chapter/about/' | relative_url }}">People &amp; resources</a>
+    </nav>
+    {% endif %}
+    {{ content }}
+  </main>
+  <footer class="site-footer">
+    <p><strong>OWASP Israel</strong> · Application security, together.</p>
+    <p><a href="https://owasp.org/www-chapter-israel/">Official OWASP chapter listing</a> · <a href="https://owasp.org/join">OWASP membership</a> · <a href="{{ '/code-of-conduct' | relative_url }}">Conference code of conduct</a></p>
+  </footer>
+</body>
+</html>

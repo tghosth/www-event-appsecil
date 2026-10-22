@@ -1,0 +1,39 @@
+---
+layout: chapter
+title: OWASP Israel
+description: Application security in Israel. Explore the AppSec Israel conference and the OWASP Israel chapter.
+permalink: /
+section: home
+---
+<section class="intro">
+  <p class="eyebrow">Open to everyone · Application security in Israel</p>
+  <h1>Learn. Share.<br>Build more secure software.</h1>
+  <p class="lead">Welcome to OWASP Israel. Join us for our annual AppSec Israel conference and connect with the chapter throughout the year.</p>
+</section>
+
+<div class="pathways">
+  <section class="pathway" aria-labelledby="conference-title">
+    <p class="eyebrow">The annual gathering</p>
+    <h2 id="conference-title">AppSec Israel Conference</h2>
+    <p>Talks, practical insights, and connections for developers, security professionals, and everyone working to make software safer.</p>
+    {% assign year_key = site.current_year | prepend: 'year-' %}
+    {% assign cfg = site.data[year_key].config %}
+    <p class="detail">{{ cfg.dates.conference }}<br>{{ cfg.address }}</p>
+    <a class="button" href="{{ '/conference.html' | relative_url }}">Explore the conference <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/conferences/' | relative_url }}">Browse past conferences</a>
+  </section>
+  <section class="pathway" aria-labelledby="chapter-title">
+    <p class="eyebrow">Throughout the year</p>
+    <h2 id="chapter-title">OWASP Israel Chapter</h2>
+    <p>Local meetups, shared knowledge, and a welcoming network of people interested in application security. Everyone is welcome to participate.</p>
+    <p class="detail">Stay connected between conferences.<br>Join the mailing list for meetup announcements.</p>
+    <a class="button" href="{{ '/chapter/' | relative_url }}">Explore the chapter <span aria-hidden="true">→</span></a>
+    <a class="text-link" href="{{ '/chapter/#mailing-list' | relative_url }}">Get chapter updates</a>
+  </section>
+</div>
+
+<section class="closing">
+  <h2>A local chapter. A worldwide mission.</h2>
+  <p>The Open Worldwide Application Security Project is a nonprofit foundation working to improve software security. Our chapter brings that mission to Israel through learning, collaboration, and events.</p>
+  <a href="https://owasp.org/">Learn about OWASP</a>
+</section>

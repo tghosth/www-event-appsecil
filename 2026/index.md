@@ -1,5 +1,10 @@
 ---
 layout: custom-2026
+permalink: /conference.html
+redirect_from:
+  - /conference/
+  - /2026/
+  - /2026/index.html
 ---
 
 {% assign cfg = site.data["year-2026"].config %}

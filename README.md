@@ -53,3 +53,33 @@ so PowerShell script execution settings do not affect it. It uses
 JSON and BigDecimal libraries. This avoids the incompatible older Liquid
 version selected by the full GitHub Pages bundle on Ruby 4. The production
 `Gemfile` is separate from this local preview configuration.
+
+### Chapter and conference landing page
+
+The homepage (`index.html`) gives the annual conference and year-round chapter
+equal prominence. Chapter pages use `_layouts/chapter.html` and
+`assets/css/chapter.css`, independently of yearly conference layouts.
+
+- `/`: shared landing page
+- `/conference.html`: existing 2026 conference overview
+- `/conference/` and `/2026/`: aliases to the conference overview
+- `/chapter/`: mailing list, meetup information, and ways to participate
+- `/chapter/meetups/`: historical meeting records and recordings
+- `/chapter/about/`: chapter people and Hebrew resources
+- `/conferences/`: annual conference history
+
+Existing root conference detail URLs (registration, agenda, sponsors, photos,
+and code of conduct) are preserved. Conference navigation anchors now point
+explicitly to the conference overview. Historical 2023 and 2025 sites are unchanged.
+
+Chapter content was adapted from OWASP/www-chapter-israel. Keep mailing list,
+forms, contacts, and resources in the chapter pages current. Past Meetup links
+are retained as historical references; announcements use the mailing list.
+Legacy meeting conflicts are preserved with an archive note. The invalid
+“May 26–39, 2019” conference date is shown as “May 2019” pending verification.
+Historical sponsor graphics and stale announcements were not imported.
+
+For a preview under a project URL, build with a base URL:
+`bundle exec jekyll build --baseurl /www-event-appsecil`.
+Check the landing page, chapter pages, conference overview, and both conference
+navigation menus. In particular, verify images and existing root detail links.

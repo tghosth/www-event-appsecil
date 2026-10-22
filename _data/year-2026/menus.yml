@@ -1,17 +1,21 @@
+- title: Home
+  url: /
+- title: Chapter
+  url: /chapter/
 - title: About
-  url  : ./#about
+  url  : /conference.html#about
 - title: Registration
-  url  : ./registration
+  url  : /registration
 # - title: CTF Registration
 #   url  : https://appsecil25.ctf.today/
 #- title: CFP
-#  url  : ./CFP
+#  url  : /CFP
 - title: Sponsors
-  url  : ./sponsors
+  url  : /sponsors
 - title: Agenda
-  url  : ./agenda
+  url  : /agenda
 - title: Membership
-  url  : ./#membership
+  url  : /conference.html#membership
 - title: Team
-  url  : ./#team
+  url  : /conference.html#team
 
