@@ -4,5 +4,11 @@
   url: /conference.html
 - title: Chapter
   url: /chapter/
+- title: Agenda
+  url: /agenda
+- title: Registration
+  url: /registration
+- title: Sponsors
+  url: /sponsors
 - title: Past conferences
   url: /conferences/

@@ -1,8 +1,4 @@
-{% if page.section %}
 {% assign navigation = site.data.site-menu %}
-{% else %}
-{% assign navigation = site.data.year-2026.menus %}
-{% endif %}
 {% if page.section and page.section != 'home' %}
 <header class="header header_style_lblue">
 {% elsif page.startSection %}
@@ -18,9 +14,6 @@
           {% for menu in navigation %}
           <li><a href="{{ menu.url | relative_url }}"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
           {% endfor %}
-          {% unless page.section %}
-          <li><a href="{{ '/conferences/' | relative_url }}">Past conferences</a></li>
-          {% endunless %}
         </ul>
       </nav>
       <button class="burger-btn header__burger-btn" aria-label="menu">
@@ -34,9 +27,6 @@
         {% for menu in navigation %}
         <li><a href="{{ menu.url | relative_url }}" class="mobile-menu__link"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
         {% endfor %}
-        {% unless page.section %}
-        <li><a href="{{ '/conferences/' | relative_url }}" class="mobile-menu__link">Past conferences</a></li>
-        {% endunless %}
       </ul>
     </nav>
   </div>
