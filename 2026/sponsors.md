@@ -7,15 +7,15 @@ startSection: inverse
 <div class="page-section__inner">
 <div class="text text_type_narrow" markdown="1">
 
-## AppSec Israel 2026 sponsors
+## Sponsors
 
-Sponsorship helped cover the costs of AppSec Israel 2026 and supported ongoing OWASP Israel chapter activities.
+Sponsorship keeps our OWASP community active and allows us to improve the conference, which is free for everyone and not funded by ticket sales. Sponsorship fees cover event costs, and any remainder goes to ongoing Chapter activities.
 
-Thank you to all the organizations that supported AppSec Israel 2026. Sponsorship for this edition is closed.
+We offer several premium tiers, a la carte options, and a cost-effective Community Supporter level for smaller organizations.
 
 ---
 
-<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_white" target="_blank">View the 2026 sponsorship prospectus</a>
+<a href="./AppSecIL2026Sponsorships.pdf" class="button button_type_white" target="_blank">Become a sponsor</a>
 
 </div>
 </div>

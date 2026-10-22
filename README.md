@@ -76,8 +76,10 @@ under `/2026/`; archive layouts, year-specific navigation and relative asset pat
 existing 2025 archive pattern. The full 2026 homepage is preserved, with its
 own 2026 logo, menu, content sections and footer. The shared menu belongs to
 the current chapter/2027 site.
-Live 2026 registration and CFP actions have been removed. Historical 2023 and
-2025 sites are unchanged. `current_year` is 2027; upcoming dates and venue are
+2026 page content is preserved verbatim from the original conference site,
+including its original labels, forms, calls to action and photo messages. Only
+layout/asset paths and routing change for the year-specific location, as with
+2025. Historical 2023 and 2025 sites are unchanged. `current_year` is 2027; upcoming dates and venue are
 maintained in `_data/year-2027/config.yml`. The visual design still uses the
 existing 2026 stylesheet, independently of the conference's current year.
 

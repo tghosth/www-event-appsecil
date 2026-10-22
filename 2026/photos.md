@@ -30,7 +30,7 @@ startSection: lblue
 {% if photo_count > 0 %}
 Select a thumbnail to view the full photo. Use the arrows to browse, or press Escape to close.
 {% else %}
-No photos have been added to the 2026 album yet.
+Photos from AppSec Israel 2026 will be added here soon. Check back after the event!
 {% endif %}
 
 </div>
