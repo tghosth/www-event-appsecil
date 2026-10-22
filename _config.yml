@@ -28,4 +28,3 @@ defaults:
     values: 
       year: 2026
       layout: layout-2026
-      permalink: /2026/:basename:output_ext

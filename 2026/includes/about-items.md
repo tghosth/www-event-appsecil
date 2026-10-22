@@ -9,7 +9,7 @@
             {% endfor %}
         </div>
         <div class="about__cover">
-            <img src="{{ item.image | relative_url }}" class="about__image">
+            <img src="{{item.image}}" class="about__image">
         </div>
     </li>
 {% endfor %}

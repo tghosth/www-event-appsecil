@@ -6,7 +6,7 @@
 <ul class="gallery__slides">
 {% for photo in site.data.year-2026.photos %}
     <li class="gallery__slide">
-        <img src="{{ photo.image | relative_url }}" alt="">
+        <img src="{{photo.image}}" alt="">
         <div class="gallery__slide-textbox">
         {% if photo.title %} 
           <h3 class="gallery__slide-title">{{photo.title}}</h3>

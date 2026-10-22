@@ -72,7 +72,10 @@ formatting; it does not define a separate visual theme.
 
 Current root agenda, registration, sponsors, and CFP pages are 2027 placeholders.
 The old root photo URL redirects to `/2026/photos.html`. 2026 records now live
-under `/2026/`; archive layouts resolve shared assets from the site root.
+under `/2026/`; archive layouts, year-specific navigation and relative asset paths follow the
+existing 2025 archive pattern. The full 2026 homepage is preserved, with its
+own 2026 logo, menu, content sections and footer. The shared menu belongs to
+the current chapter/2027 site.
 Live 2026 registration and CFP actions have been removed. Historical 2023 and
 2025 sites are unchanged. `current_year` is 2027; upcoming dates and venue are
 maintained in `_data/year-2027/config.yml`. The visual design still uses the

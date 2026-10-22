@@ -9,7 +9,7 @@
 		{% if sponsor.image == blank %}
 		  <p>{{ sponsor.name }}</p>
 		{% else %} 
-		  <img src="{{ '/assets/img/Sponsors/' | append: sponsor.image | relative_url }}"> 
+		  <img src="./../assets/img/Sponsors/{{ sponsor.image }}"> 
 		{% endif %}
 	  </a>
 	</span>
