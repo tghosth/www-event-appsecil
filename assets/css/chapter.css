@@ -63,3 +63,17 @@
 @media screen and (max-width: 575px) {
   .chapter-content .chapter-leads .grid__item { flex-basis: 100%; }
 }
+
+/* Full-width chapter bands reuse the conference section backgrounds. */
+.chapter-band .page-section__inner { padding-top: 72px; padding-bottom: 72px; }
+.main .chapter-band:first-child .page-section__inner {
+  padding-top: 200px;
+  padding-bottom: 72px;
+}
+.chapter-band .chapter-content > h2:first-child,
+.chapter-band .chapter-content > h3:first-child { margin-top: 0; }
+.chapter-band { scroll-margin-top: 100px; }
+@media screen and (max-width: 767px) {
+  .chapter-band .page-section__inner { padding-top: 48px; padding-bottom: 48px; }
+  .main .chapter-band:first-child .page-section__inner { padding-top: 150px; padding-bottom: 48px; }
+}

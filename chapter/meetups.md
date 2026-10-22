@@ -3,10 +3,22 @@ layout: chapter
 title: Chapter meetup archive
 permalink: /chapter/meetups/
 section: chapter
+full_width_sections: true
 ---
-<div class="prose" markdown="1">
+<section class="page-section chapter-band page-section_lblue">
+<div class="page-section__inner">
+{% include chapter-nav.html %}
+<div class="text chapter-content" markdown="1">
 
 # Chapter meetup archive
+
+</div>
+</div>
+</section>
+
+<section class="page-section chapter-band ">
+<div class="page-section__inner">
+<div class="text chapter-content" markdown="1">
 
 <div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0" markdown="1">
 
@@ -33,6 +45,18 @@ Past events, starting from 2016 can be found in <a href="https://www.meetup.com/
 |[Online OWASP Israel March 2020](https://www.meetup.com/OWASP-Israel/events/269501314/)| March 24, 2020| PayU online event||
 |Workshop for members on [Docker Image security](https://www.meetup.com/OWASP-Israel/events/268461033/)|February 18, 2020| Bridgecrew office||
 |OWASP Chapters All Day (24hr conference) - hour 21|Jube 6, 2020| OWASP online event|[here](https://www.youtube.com/watch?v=jZs89NORky4)|
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="page-section chapter-band page-section_pale">
+<div class="page-section__inner">
+<div class="text chapter-content" markdown="1">
+
+<div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0" markdown="1">
 
 ### Previous Meetups
 
@@ -240,4 +264,7 @@ Past events, starting from 2016 can be found in <a href="https://www.meetup.com/
 </table>
 
 </div>
+
 </div>
+</div>
+</section>

@@ -18,17 +18,13 @@
   <a class="chapter-skip" href="#main">Skip to content</a>
   {% include site-header.html %}
   <main class="main" id="main" tabindex="-1">
-    {% if page.section == 'home' %}
+    {% if page.section == 'home' or page.full_width_sections %}
       {{ content }}
     {% else %}
     <section class="page-section page-section_lblue">
       <div class="page-section__inner">
         {% if page.section == 'chapter' %}
-        <nav class="chapter-nav" aria-label="Chapter navigation">
-          <a href="{{ '/chapter/' | relative_url }}">Overview</a>
-          <a href="{{ '/chapter/meetups/' | relative_url }}">Meetup archive</a>
-          <a href="{{ '/chapter/about/' | relative_url }}">People &amp; resources</a>
-        </nav>
+        {% include chapter-nav.html %}
         {% endif %}
         <div class="text chapter-content">{{ content }}</div>
       </div>
