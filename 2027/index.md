@@ -155,16 +155,15 @@ Current membership benefits are listed on the OWASP website. Any 2027 conference
 <div class="team-intro">
 <div class="text text_type_narrow" markdown="1">
 
-## The people behind the conference
+## Conference organising team
 
-AppSec Israel is powered by volunteers from the application security community. The 2027 organizing team will be announced here.
-
-[Meet the OWASP Israel chapter leaders]({{ '/chapter/about/' | relative_url }}).
+AppSec Israel is driven by dedicated people who contribute their time, energy, and expertise to make the conference happen.
 
 ---
 
 </div>
 </div>
+{% include_relative includes/team.md %}
 </div>
 </section>
 

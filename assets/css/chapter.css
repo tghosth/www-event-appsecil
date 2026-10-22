@@ -45,3 +45,21 @@
   .chapter-pathways { grid-template-columns: 1fr; gap: 60px; }
   .chapter-pathway h2 { min-height: 0; }
 }
+
+/* Reuse the conference portrait cards for the four chapter leads. */
+.chapter-content .chapter-leads {
+  padding: 0;
+  margin: 32px 0 60px;
+  gap: 30px;
+}
+.chapter-content .chapter-leads .grid__item {
+  flex: 0 0 calc((100% - 30px) / 2);
+}
+.chapter-content .chapter-leads .team-grid__title {
+  margin: 14px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media screen and (max-width: 575px) {
+  .chapter-content .chapter-leads .grid__item { flex-basis: 100%; }
+}
