@@ -1,0 +1,43 @@
+{% if page.section %}
+{% assign navigation = site.data.site-menu %}
+{% else %}
+{% assign navigation = site.data.year-2026.menus %}
+{% endif %}
+{% if page.section and page.section != 'home' %}
+<header class="header header_style_lblue">
+{% elsif page.startSection %}
+<header class="header header_style_{{ page.startSection }}">
+{% else %}
+<header class="header">
+{% endif %}
+  <div class="header__menu-wrapper">
+    <div class="header__inner">
+      <a href="{{ '/' | relative_url }}" class="logo header__logo" aria-label="OWASP Israel home" style="background-image: url({{ '/assets/img/2026/AppSecIL_2026_Logo.png' | relative_url }})"></a>
+      <nav class="mainmenu header__menu" aria-label="Main navigation">
+        <ul class="mainmenu__list">
+          {% for menu in navigation %}
+          <li><a href="{{ menu.url | relative_url }}"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
+          {% endfor %}
+          {% unless page.section %}
+          <li><a href="{{ '/conferences/' | relative_url }}">Past conferences</a></li>
+          {% endunless %}
+        </ul>
+      </nav>
+      <button class="burger-btn header__burger-btn" aria-label="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <div class="mobile-menu">
+    <nav class="mobile-menu__nav" aria-label="Mobile navigation">
+      <ul class="mobile-menu__list">
+        {% for menu in navigation %}
+        <li><a href="{{ menu.url | relative_url }}" class="mobile-menu__link"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
+        {% endfor %}
+        {% unless page.section %}
+        <li><a href="{{ '/conferences/' | relative_url }}" class="mobile-menu__link">Past conferences</a></li>
+        {% endunless %}
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -57,8 +57,10 @@ version selected by the full GitHub Pages bundle on Ruby 4. The production
 ### Chapter and conference landing page
 
 The homepage (`index.html`) gives the annual conference and year-round chapter
-equal prominence. Chapter pages use `_layouts/chapter.html` and
-`assets/css/chapter.css`, independently of yearly conference layouts.
+equal prominence. The homepage and chapter pages use the original conference design: Poppins,
+`style-2026.css`, the photo hero, existing button styles, and shared header/footer
+includes. `assets/css/chapter.css` adds only chapter-specific layout and archive
+formatting; it does not define a separate visual theme.
 
 - `/`: shared landing page
 - `/conference.html`: existing 2026 conference overview
