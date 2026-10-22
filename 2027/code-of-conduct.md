@@ -1,6 +1,6 @@
 ---
 layout: layout-2027
-title: Conference code of conduct
+title: OWASP Israel code of conduct
 section: conference
 startSection: lblue
 permalink: /code-of-conduct.html
@@ -8,17 +8,17 @@ redirect_from:
   - /2027/code-of-conduct.html
 ---
 
-# Conference Code of Conduct
+# OWASP Israel Code of Conduct
 
-All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. Organisers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.  
+All attendees, speakers, sponsors, volunteers, and other participants in OWASP Israel activities are required to agree with the following code of conduct. It applies to chapter meetings, conferences, workshops, social events, and our online channels. Organisers will enforce this code throughout these activities. We expect cooperation from all participants to help ensure a safe environment for everybody.  
 
 ### Need Help?
 
-Find any of the organizers or staff members. Volunteers will also be on hand to help you in any situation. 
+Contact the [OWASP Israel chapter leaders]({{ '/chapter/about/' | relative_url }}) or speak to the organisers, staff, or volunteers at the activity. 
 
 ### The Quick Version
 
-Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, race, religion, etc.. We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference *without recompense* at the discretion of the conference organisers.
+OWASP Israel is dedicated to providing a harassment-free experience for everyone, regardless of gender, race, religion, etc. We do not tolerate harassment of participants in any form. Sexual language and imagery are not appropriate at chapter meetings, conferences, workshops, social events, or in our online channels. Participants violating these rules may be sanctioned or removed from the activity, without refund where applicable, at the discretion of the organisers.
 
 ### The Less Quick Version
 
@@ -28,17 +28,17 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized images, activities, or other material. Booth staff (including volunteers) should not use sexualized clothing/uniforms/costumes, or otherwise create a sexualized environment.
 
-If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+If a participant engages in harassing behavior, the organisers may take any action they deem appropriate, including warning the offender or removal from the activity, without refund where applicable.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they&#39;ll be wearing branded t-shirts.
+If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact an organiser or one of the [OWASP Israel chapter leaders]({{ '/chapter/about/' | relative_url }}) immediately.
 
-Conference staff will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+Organisers will be happy to help participants contact venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the activity. We value your attendance.
 
-We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+We expect participants to follow these rules at all OWASP Israel activities, including chapter meetings, conferences, workshops, social events, and in our online channels.
 
 ### Family Friendly
 
-Please note that AppSec Israel is a family friendly conference. 
+Please note that OWASP Israel activities are family friendly. 
 
 If you need to bring your baby with you in order to attend, please do so! We only request that you be sensitive to others close to you, if your child needs to make noise please take them to the side of the room, or outside if they are subtantially disturbing others.     
 
