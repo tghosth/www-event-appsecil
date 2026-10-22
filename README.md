@@ -94,3 +94,20 @@ For a preview under a project URL, build with a base URL:
 `bundle exec jekyll build --baseurl /www-event-appsecil`.
 Check the landing page, chapter pages, conference overview, and both conference
 navigation menus. In particular, verify images and existing root detail links.
+
+### 2027 conference maintenance
+
+The 2027 overview uses `custom-2027`, matching the original 2026 section
+structure, photo hero, typography, colors, buttons and gallery. It uses the
+shared current-site header and footer. Detail pages use `layout-2027`.
+The shared design assets remain in their original paths; reusing them does not
+change the archived site's files.
+
+Edit `_data/year-2027/config.yml` for confirmed dates and venue, and
+`2027/index.md` for the section copy. Until confirmed, registration, CFP,
+sponsorship, agenda and team information remain placeholders. The gallery is
+explicitly labelled as 2026 highlights; no 2026 speakers, sponsors, prices,
+registration forms or dates are presented as 2027 information.
+
+2025 and 2026 retain year-specific navigation and historical page content.
+Changes to the current shared menu should be made in `_data/site-menu.yml`.

@@ -1,6 +1,4 @@
-title: AppSec Israel 
-description: OWASP AppSec Israel annual conference
-title: AppSec Israel 
+title: AppSec Israel
 description: OWASP AppSec Israel annual conference
 
 # Since GH pages override this to "true", we test this value to see if we are running locally
@@ -28,3 +26,8 @@ defaults:
     values: 
       year: 2026
       layout: layout-2026
+  - scope:
+      path: "2027/*.md"
+    values:
+      year: 2027
+      layout: layout-2027

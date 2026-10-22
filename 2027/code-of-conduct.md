@@ -1,8 +1,11 @@
 ---
-layout: chapter
+layout: layout-2027
 title: Conference code of conduct
 section: conference
+startSection: lblue
 permalink: /code-of-conduct.html
+redirect_from:
+  - /2027/code-of-conduct.html
 ---
 
 # Conference Code of Conduct

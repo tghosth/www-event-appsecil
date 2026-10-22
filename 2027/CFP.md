@@ -1,12 +1,12 @@
 ---
-layout: chapter
+layout: layout-2027
 title: AppSec Israel 2027 — Call for presentations
 section: conference
+startSection: lblue
 permalink: /CFP.html
 redirect_from:
   - /2027/CFP.html
 ---
-<div class="prose" markdown="1">
 
 # Call for presentations — AppSec Israel 2027
 
@@ -16,4 +16,3 @@ The call for presentations for AppSec Israel 2027 is **not open yet**. Submissio
 
 [Back to the 2027 conference]({{ '/conference.html' | relative_url }}) · [Explore the 2026 archive]({{ '/2026/' | relative_url }}).
 
-</div>

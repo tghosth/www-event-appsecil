@@ -1,8 +1,8 @@
 {% assign navigation = site.data.site-menu %}
-{% if page.section and page.section != 'home' %}
-<header class="header header_style_lblue">
-{% elsif page.startSection %}
+{% if page.startSection %}
 <header class="header header_style_{{ page.startSection }}">
+{% elsif page.section and page.section != 'home' %}
+<header class="header header_style_lblue">
 {% else %}
 <header class="header">
 {% endif %}
