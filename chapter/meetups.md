@@ -16,255 +16,69 @@ full_width_sections: true
 </div>
 </section>
 
-<section class="page-section chapter-band ">
+<section class="page-section chapter-band">
 <div class="page-section__inner">
 <div class="text chapter-content" markdown="1">
-
-<div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0" markdown="1">
 
 ## Previous Meetings
 
 Past events, starting from 2016 can be found in <a href="https://www.meetup.com/OWASP-Israel/events/past/">OWASP-Israel</a> meetup group
 
-
-
-| Name  | Date  | Location   | Channel |
-|---------------- | ------------------------------ | -------------------------- | -----------------------------|
-| [OWASP IL Meetup November 2025](https://www.meetup.com/owasp-israel/events/311662453/) | Nov 18, 2025        | Akamai in Tel Aviv-Yafo  |   |
-| [OWASP IL Meetup December 2024](https://www.meetup.com/owasp-israel/events/304629282/) | Dec 4, 2024        | JFrog in Tel Aviv-Yafo  |   |
-| [OWASP IL Special Workshop July 2024](https://www.meetup.com/owasp-israel/events/302035464/) | July 16, 2024        | Monday.com in Tel Aviv-Yafo  |   |
-| [OWASP IL Meetup June 2024](https://www.meetup.com/owasp-israel/events/300284889/) | June 23, 2024        | Axonius in Tel Aviv-Yafo  |   |
-| [OWASP IL Meetup May 2024](https://www.meetup.com/owasp-israel/events/300284832/) | May 8, 2024        | Playtika in Herzliya  |   |
-| [OWASP IL Meetup February 2024](https://www.meetup.com/owasp-israel/events/296831820/) | Feb 6, 2024        | Bright Security in Tel Aviv-Yafo  |   |
-| [OWASP IL Meetup August 2023 - CTF ](https://www.meetup.com/owasp-israel/events/295711502/) | Sep 5, 2023        | Cato Networks in Tel Aviv-Yafo  |   |
-| [AppSec IL 2023 ](https://www.meetup.com/owasp-israel/events/293101142//) | May 16, 2023        | Expo in Tel Aviv-Yafo  |   |
-| [OWASP IL Meetup January 2023](https://www.meetup.com/owasp-israel/events/290271835/) | Jan 10, 2023        | JFrog in Tel Aviv-Yafo  |  [here](https://youtube.com/playlist?list=PLA4gj-PiNukc8m2qQtNgodFtrYd1TDPo9) |
-| [OWASP IL Meetup July 2022](https://www.meetup.com/OWASP-Israel/events/286758480/) | July 12, 2022        | AWS Floor28 in Tel Aviv-Yafo  |  |
-| [OWASP IL Meetup March 2022](https://www.meetup.com/OWASP-Israel/events/286758480/) | March 15, 2022        | Enso Security in Tel Aviv-Yafo  |  |
-| [OWASP IL Meetup Dec 2021](https://www.meetup.com/OWASP-Israel/events/282521101/) | Dec 27, 2021        | Apiiro office in Tel Aviv-Yafo  | [here](https://www.youtube.com/watch?v=-PvE682PII8&list=PLA4gj-PiNukdydWyr1_FxOo0ZlQYiBvQt) |
-|[Online OWASP Israel March 2020](https://www.meetup.com/OWASP-Israel/events/269501314/)| March 24, 2020| PayU online event||
-|Workshop for members on [Docker Image security](https://www.meetup.com/OWASP-Israel/events/268461033/)|February 18, 2020| Bridgecrew office||
-|OWASP Chapters All Day (24hr conference) - hour 21|Jube 6, 2020| OWASP online event|[here](https://www.youtube.com/watch?v=jZs89NORky4)|
-
-</div>
-
-</div>
-</div>
-</section>
-
-<section class="page-section chapter-band page-section_pale">
-<div class="page-section__inner">
-<div class="text chapter-content" markdown="1">
-
-<div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0" markdown="1">
-
-### Previous Meetups
+<div class="table-scroll" role="region" aria-label="Past chapter meetups" tabindex="0">
 
 <table>
-  <col width="300">
-  <col width="150">
-  <col width="250">
-  <col width="150">
-<thead>
-<tr class="table-header">
-<th><p>Name</p></th>
-<th><p>Date</p></th>
-<th><p>Location</p></th>
-<th><p>Attendance</p></th>
-</tr>
-</thead>
+<thead><tr><th scope="col">Name</th><th scope="col">Date</th><th scope="col">Location</th><th scope="col">Recordings</th><th scope="col">Attendance</th></tr></thead>
 <tbody>
-<tr class="even">
-<td><p><a href="https://www.meetup.com/OWASP-Israel/events/277502454/">OWASP IL Meetup April 2021</a></p></td>
-<td><p>April 25, 2021</p></td>
-<td><p>Online - CMD+CTRL CyberRange</p></td>
-<td><p>120 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://www.meetup.com/OWASP-Israel/events/274686621/">OWASP Meetup December 2020</a></p></td>
-<td><p>December 8, 2020</p></td>
-<td><p>Online</p></td>
-<td><p>167 participants</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://www.meetup.com/OWASP-Israel/events/269501314/">OWASP Meetup March 2020</a></p></td>
-<td><p>March 24, 2020</p></td>
-<td><p>Online</p></td>
-<td><p>117 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p><a href="https://www.meetup.com/OWASP-Israel/events/277502454/">OWASP Meetup Feb 2020</a></p></td>
-<td><p>February 18, 2020</p></td>
-<td><p>BridgeCrew.io Office</p></td>
-<td><p>96 participants</p></td>
-</tr>
-<tr class="even">
-<td><p><a href="https://www.meetup.com/OWASP-Israel/events/267512448/">OWASP Israel January 2020 - Workshop</a></p></td>
-<td><p>January 21, 2020</p></td>
-<td><p>ZOOZ office in Tel Aviv-Yafo</p></td>
-<td><p>20 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel November 2019</p></td>
-<td><p>November 6, 2019</p></td>
-<td><p>Akamai Israel Ltd. in Tel Aviv-Yafo</p></td>
-<td><p>175 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel June 2019</p></td>
-<td><p>June 25, 2019</p></td>
-<td><p>Imperva office in Tel Aviv-Yafo</p></td>
-<td><p>178 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel February 201</p></td>
-<td><p>February 12, 2019</p></td>
-<td><p>Perimeterx Office in Tel Aviv</p></td>
-<td><p>155 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel November 2018</p></td>
-<td><p>November 20, 2018</p></td>
-<td><p>Synopsis Offices in Herzliya</p></td>
-<td><p>109 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel May 2018</p></td>
-<td><p>May 8, 2018</p></td>
-<td><p>Soluto in Tel Aviv-Yafo</p></td>
-<td><p>212 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel January 2018</p></td>
-<td><p>January 28, 2018</p></td>
-<td><p>SafeBreach in Tel Aviv</p></td>
-<td><p>69 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel June 2017</p></td>
-<td><p>June 20th, 2017</p></td>
-<td><p>Intuit Israel, HaHarash St. 4, Hod Hasharon</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel April 2017</p></td>
-<td><p>April 3rd, 2017</p></td>
-<td><p>Checkmarx's offices, in the Amot Atrium Tower, 2 Jabotinsky St., Ramat Gan</p></td>
-<td><p>75 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel January 2017</p></td>
-<td><p>January 18th, 2017</p></td>
-<td><p>Radware’s Tel Aviv offices, at Raul Wallenberg 22, Ramat HaChayal</p></td>
-<td><p>120 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel June 2016</p></td>
-<td><p>June 14, 2016</p></td>
-<td><p>Amdocs Auditorium in Raanana</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel April 2016</p></td>
-<td><p>April 12, 2016</p></td>
-<td><p>HP Enterprise in Yehud</p></td>
-<td><p>150 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel February 2016</p></td>
-<td><p>February 2, 2016</p></td>
-<td><p>F5 Networks in Tel Aviv</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel June 2015</p></td>
-<td><p>June 16, 2015</p></td>
-<td><p>Microsoft in Herzeliya</p></td>
-<td><p>120 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel March 2015</p></td>
-<td><p>March 30, 2015</p></td>
-<td><p>NCR in Raanana</p></td>
-<td><p>120 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel June 2014</p></td>
-<td><p>June 16, 2014</p></td>
-<td><p>F5 Networks in Tel Aviv</p></td>
-<td><p>110 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel April 2014</p></td>
-<td><p>April 23, 2014</p></td>
-<td><p>Akamai in Herzliya Pituach</p></td>
-<td><p>100 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel January 2014</p></td>
-<td><p>January 14th, 2014</p></td>
-<td><p>Amdocs in Ra'anana</p></td>
-<td><p>120 participants</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel May 2013</p></td>
-<td><p>May 28th, 2013</p></td>
-<td><p>RSA</p></td>
-<td><p>80 participants</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel February 2013</p></td>
-<td><p>February 12th, 2013</p></td>
-<td><p>E&amp;Y</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel Jun-2010</p></td>
-<td><p>Jun 22nd, 2010</p></td>
-<td><p>IBM/Watchfire in Herzliya</p></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel Feb-2010</p></td>
-<td><p>Feb 9th, 2010</p></td>
-<td><p>Amdocs in Ra'anana</p></td>
-<td><p>70 attendees</p></td>
-</tr>
-<tr class="odd">
-<td><p>title=>OWASP Israel Jan-2010</p></td>
-<td><p>Jan 12th, 2010</p></td>
-<td><p>Breach Security in Herzliya</p></td>
-<td><p>60 attendees</p></td>
-</tr>
-<tr class="even">
-<td><p>OWASP Israel Dec-2009</p></td>
-<td><p>Dec 2009</p></td>
-<td><p>IBM/Watchfire in Herzliya</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel May 2009 meeting</p></td>
-<td><p>May 7th, 2009</p></td>
-<td><p>IBM in Park Azorim in Petach-Tikva</p></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel March 2009 meeting</p></td>
-<td><p>March 26th, 2009</p></td>
-<td><p>Tel-Aviv University</p></td>
-<td><p>60 attendees</p></td>
-</tr>
-<tr class="odd">
-<td><p>OWASP Israel January 2009 meeting</p></td>
-<td><p>January 28th, 2009</p></td>
-<td><p>Checkpoint</p></td>
-<td><p>100 participants</p></td>
-</tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/311662453/">OWASP IL Meetup November 2025</a></td><td>Nov 18, 2025</td><td>Akamai in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/304629282/">OWASP IL Meetup December 2024</a></td><td>Dec 4, 2024</td><td>JFrog in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/302035464/">OWASP IL Special Workshop July 2024</a></td><td>July 16, 2024</td><td>Monday.com in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/300284889/">OWASP IL Meetup June 2024</a></td><td>June 23, 2024</td><td>Axonius in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/300284832/">OWASP IL Meetup May 2024</a></td><td>May 8, 2024</td><td>Playtika in Herzliya</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/296831820/">OWASP IL Meetup February 2024</a></td><td>Feb 6, 2024</td><td>Bright Security in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/295711502/">OWASP IL Meetup August 2023 - CTF </a></td><td>Sep 5, 2023</td><td>Cato Networks in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/293101142//">AppSec IL 2023 </a></td><td>May 16, 2023</td><td>Expo in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/owasp-israel/events/290271835/">OWASP IL Meetup January 2023</a></td><td>Jan 10, 2023</td><td>JFrog in Tel Aviv-Yafo</td><td><a href="https://youtube.com/playlist?list=PLA4gj-PiNukc8m2qQtNgodFtrYd1TDPo9">here</a></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/286758480/">OWASP IL Meetup July 2022</a></td><td>July 12, 2022</td><td>AWS Floor28 in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/286758480/">OWASP IL Meetup March 2022</a></td><td>March 15, 2022</td><td>Enso Security in Tel Aviv-Yafo</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/282521101/">OWASP IL Meetup Dec 2021</a></td><td>Dec 27, 2021</td><td>Apiiro office in Tel Aviv-Yafo</td><td><a href="https://www.youtube.com/watch?v=-PvE682PII8&amp;list=PLA4gj-PiNukdydWyr1_FxOo0ZlQYiBvQt">here</a></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/277502454/">OWASP IL Meetup April 2021</a></td><td>April 25, 2021</td><td>Online - CMD+CTRL CyberRange</td><td></td><td>120 participants</td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/274686621/">OWASP Meetup December 2020</a></td><td>December 8, 2020</td><td>Online</td><td></td><td>167 participants</td></tr>
+<tr><td>OWASP Chapters All Day (24hr conference) - hour 21</td><td>Jube 6, 2020</td><td>OWASP online event</td><td><a href="https://www.youtube.com/watch?v=jZs89NORky4">here</a></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/269501314/">Online OWASP Israel March 2020</a></td><td>March 24, 2020</td><td>PayU online event</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/269501314/">OWASP Meetup March 2020</a></td><td>March 24, 2020</td><td>Online</td><td></td><td>117 participants</td></tr>
+<tr><td>Workshop for members on <a href="https://www.meetup.com/OWASP-Israel/events/268461033/">Docker Image security</a></td><td>February 18, 2020</td><td>Bridgecrew office</td><td></td><td></td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/277502454/">OWASP Meetup Feb 2020</a></td><td>February 18, 2020</td><td>BridgeCrew.io Office</td><td></td><td>96 participants</td></tr>
+<tr><td><a href="https://www.meetup.com/OWASP-Israel/events/267512448/">OWASP Israel January 2020 - Workshop</a></td><td>January 21, 2020</td><td>ZOOZ office in Tel Aviv-Yafo</td><td></td><td>20 participants</td></tr>
+<tr><td>OWASP Israel November 2019</td><td>November 6, 2019</td><td>Akamai Israel Ltd. in Tel Aviv-Yafo</td><td></td><td>175 participants</td></tr>
+<tr><td>OWASP Israel June 2019</td><td>June 25, 2019</td><td>Imperva office in Tel Aviv-Yafo</td><td></td><td>178 participants</td></tr>
+<tr><td>OWASP Israel February 201</td><td>February 12, 2019</td><td>Perimeterx Office in Tel Aviv</td><td></td><td>155 participants</td></tr>
+<tr><td>OWASP Israel November 2018</td><td>November 20, 2018</td><td>Synopsis Offices in Herzliya</td><td></td><td>109 participants</td></tr>
+<tr><td>OWASP Israel May 2018</td><td>May 8, 2018</td><td>Soluto in Tel Aviv-Yafo</td><td></td><td>212 participants</td></tr>
+<tr><td>OWASP Israel January 2018</td><td>January 28, 2018</td><td>SafeBreach in Tel Aviv</td><td></td><td>69 participants</td></tr>
+<tr><td>OWASP Israel June 2017</td><td>June 20th, 2017</td><td>Intuit Israel, HaHarash St. 4, Hod Hasharon</td><td></td><td></td></tr>
+<tr><td>OWASP Israel April 2017</td><td>April 3rd, 2017</td><td>Checkmarx's offices, in the Amot Atrium Tower, 2 Jabotinsky St., Ramat Gan</td><td></td><td>75 participants</td></tr>
+<tr><td>OWASP Israel January 2017</td><td>January 18th, 2017</td><td>Radware’s Tel Aviv offices, at Raul Wallenberg 22, Ramat HaChayal</td><td></td><td>120 participants</td></tr>
+<tr><td>OWASP Israel June 2016</td><td>June 14, 2016</td><td>Amdocs Auditorium in Raanana</td><td></td><td></td></tr>
+<tr><td>OWASP Israel April 2016</td><td>April 12, 2016</td><td>HP Enterprise in Yehud</td><td></td><td>150 participants</td></tr>
+<tr><td>OWASP Israel February 2016</td><td>February 2, 2016</td><td>F5 Networks in Tel Aviv</td><td></td><td></td></tr>
+<tr><td>OWASP Israel June 2015</td><td>June 16, 2015</td><td>Microsoft in Herzeliya</td><td></td><td>120 participants</td></tr>
+<tr><td>OWASP Israel March 2015</td><td>March 30, 2015</td><td>NCR in Raanana</td><td></td><td>120 participants</td></tr>
+<tr><td>OWASP Israel June 2014</td><td>June 16, 2014</td><td>F5 Networks in Tel Aviv</td><td></td><td>110 participants</td></tr>
+<tr><td>OWASP Israel April 2014</td><td>April 23, 2014</td><td>Akamai in Herzliya Pituach</td><td></td><td>100 participants</td></tr>
+<tr><td>OWASP Israel January 2014</td><td>January 14th, 2014</td><td>Amdocs in Ra'anana</td><td></td><td>120 participants</td></tr>
+<tr><td>OWASP Israel May 2013</td><td>May 28th, 2013</td><td>RSA</td><td></td><td>80 participants</td></tr>
+<tr><td>OWASP Israel February 2013</td><td>February 12th, 2013</td><td>E&amp;Y</td><td></td><td></td></tr>
+<tr><td>OWASP Israel Jun-2010</td><td>Jun 22nd, 2010</td><td>IBM/Watchfire in Herzliya</td><td></td><td></td></tr>
+<tr><td>OWASP Israel Feb-2010</td><td>Feb 9th, 2010</td><td>Amdocs in Ra'anana</td><td></td><td>70 attendees</td></tr>
+<tr><td>title=>OWASP Israel Jan-2010</td><td>Jan 12th, 2010</td><td>Breach Security in Herzliya</td><td></td><td>60 attendees</td></tr>
+<tr><td>OWASP Israel Dec-2009</td><td>Dec 2009</td><td>IBM/Watchfire in Herzliya</td><td></td><td></td></tr>
+<tr><td>OWASP Israel May 2009 meeting</td><td>May 7th, 2009</td><td>IBM in Park Azorim in Petach-Tikva</td><td></td><td></td></tr>
+<tr><td>OWASP Israel March 2009 meeting</td><td>March 26th, 2009</td><td>Tel-Aviv University</td><td></td><td>60 attendees</td></tr>
+<tr><td>OWASP Israel January 2009 meeting</td><td>January 28th, 2009</td><td>Checkpoint</td><td></td><td>100 participants</td></tr>
 </tbody>
 </table>
 
 </div>
-
 </div>
 </div>
 </section>
