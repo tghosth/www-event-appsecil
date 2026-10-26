@@ -78,23 +78,13 @@
   .main .chapter-band:first-child .page-section__inner { padding-top: 150px; padding-bottom: 48px; }
 }
 
-/* Current conference links supplement the shared site navigation. */
-.conference-subnav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  gap: 12px 24px;
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 0 30px 16px;
-}
-.conference-subnav a { color: inherit; font-size: 14px; }
-.conference-subnav a[aria-current] { text-decoration: underline; }
-.conference-mobile-nav {
-  width: 100%;
-  padding-top: 20px;
-  border-top: 1px solid currentColor;
-}
-@media screen and (max-width: 767px) {
-  .conference-subnav { display: none; }
+
+/* Keep current conference navigation in the original single-row header. */
+.conference-header .header__inner { gap: 24px; }
+.conference-header .header__logo { width: 220px; }
+.conference-header .mainmenu__list { flex-wrap: nowrap; gap: 12px; }
+.conference-header .mainmenu__list a { white-space: nowrap; }
+@media screen and (max-width: 1100px) {
+  .conference-header .header__menu { display: none; }
+  .conference-header .header__burger-btn { display: block; }
 }
