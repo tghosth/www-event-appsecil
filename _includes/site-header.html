@@ -26,6 +26,13 @@
         <span></span><span></span><span></span>
       </button>
     </div>
+    {% if page.section == 'conference' %}
+    <nav class="conference-subnav" aria-label="Conference 2027 navigation">
+      {% for menu in site.data.conference-menu %}
+      <a href="{{ menu.url | relative_url }}"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a>
+      {% endfor %}
+    </nav>
+    {% endif %}
   </div>
   <div class="mobile-menu">
     <nav class="mobile-menu__nav" aria-label="Mobile navigation">
@@ -33,6 +40,17 @@
         {% for menu in navigation %}
         <li><a href="{{ menu.url | relative_url }}" class="mobile-menu__link"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
         {% endfor %}
+        {% if page.section == 'conference' %}
+        <li class="conference-mobile-nav">
+          <nav aria-label="Conference 2027 navigation">
+            <ul class="mobile-menu__list">
+              {% for menu in site.data.conference-menu %}
+              <li><a href="{{ menu.url | relative_url }}" class="mobile-menu__link"{% if page.url == menu.url %} aria-current="page"{% endif %}>{{ menu.title }}</a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+        </li>
+        {% endif %}
       </ul>
     </nav>
   </div>
