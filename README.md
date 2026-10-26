@@ -96,6 +96,58 @@ For a preview under a project URL, build with a base URL:
 Check the landing page, chapter pages, conference overview, and both conference
 navigation menus. In particular, verify images and existing root detail links.
 
+### Importing chapter meetups
+
+The chapter archive at `/chapter/meetups/` and its event pages are native Jekyll
+pages. Descriptions, venues, times with their original timezone offsets,
+RSVP counts, speakers, topics, and embedded photos are imported from the JSON
+format documented in `../meetup-archiver/ARCHIVE_FORMAT.md`. Reading the archive
+does not require Meetup or the original JSON. Attendee member records are not
+published; RSVP totals are retained.
+
+Install the importer dependencies once, from the repository root:
+
+```powershell
+python -m pip install --target .bundle/meetup-import -r _tools/meetup-requirements.txt
+```
+
+After exporting more events from Meetup, run:
+
+```powershell
+python _tools/import-meetups.py
+# Or choose an archive explicitly:
+python _tools/import-meetups.py ../meetup-archiver/output/your-archive.json
+```
+
+Without an argument the script picks the latest timestamped JSON filename in
+the sibling archiver's `output` folder. It validates the export before writing,
+rejects duplicate or unsafe event IDs, sanitizes rendered Markdown, and extracts
+embedded photos to `assets/img/meetups/`. Unembedded photo references are omitted
+with a warning rather than depending on Meetup's image servers. Description
+links remain historical content; images linked inside descriptions are not
+downloaded (the current export has none).
+
+Generated pages live in `chapter/meetups/`, with index data in
+`_data/meetups.json`. Commit these files, the images, and
+`_tools/meetup-import-manifest.json` together. Rerunning an unchanged archive
+does not modify the generated content. A new export **replaces** the imported
+event set; use a complete export to retain all events. The manifest removes
+obsolete generated pages/images while leaving manually maintained files alone.
+Edit the script/templates rather than generated event pages.
+
+The archive index retains the original meeting table design. Historical labels,
+locations, recording links, and attendance notes live in `_data/meetup-notes.json`
+and are matched by date to imported events. Older records without an archived
+event remain in the same table; new imports appear automatically with local links.
+
+```powershell
+python -m unittest discover -s _tools -p test_import_meetups.py
+.\preview.bat
+```
+
+Open `http://127.0.0.1:4000/chapter/meetups/` to test the archive. The importer
+is an offline maintenance step; deployment needs only the existing Jekyll build.
+
 ### 2027 conference maintenance
 
 The 2027 overview uses `custom-2027`, matching the original 2026 section

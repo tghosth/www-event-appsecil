@@ -6,6 +6,38 @@
   gap: 60px;
 }
 .chapter-pathway { min-width: 0; }
+.meetup-featured-link { display: block; margin: 24px 0; }
+.chapter-content .meetup-featured { display: block; width: 100%; height: auto; max-height: 380px; object-fit: contain; }
+.meetup-description { overflow-wrap: anywhere; }
+.chapter-content.meetup-detail p,
+.chapter-content.meetup-detail li {
+  text-align: justify;
+}
+/* Keep imported Markdown and inherited Bootstrap/conference type in proportion. */
+.chapter-content.meetup-detail { font-size: 1rem; line-height: 1.6; }
+.chapter-content.meetup-detail p,
+.chapter-content.meetup-detail li,
+.chapter-content.meetup-detail blockquote,
+.chapter-content.meetup-detail table,
+.chapter-content.meetup-detail .button { font-size: 1rem; line-height: 1.6; }
+.chapter-content.meetup-detail h1 { font-size: clamp(1.5rem, 1.25rem + 1vw, 2rem); line-height: 1.3; margin: 0 0 24px; }
+.chapter-content.meetup-detail h2,
+.chapter-content.meetup-detail .meetup-description h1 { font-size: 1.5rem; line-height: 1.35; margin: 32px 0 16px; }
+.chapter-content.meetup-detail h3 { font-size: 1.25rem; line-height: 1.4; margin: 28px 0 16px; }
+.chapter-content.meetup-detail h4 { font-size: 1.125rem; line-height: 1.4; margin: 24px 0 12px; }
+.chapter-content.meetup-detail h5,
+.chapter-content.meetup-detail h6 { font-size: 1rem; font-weight: 600; line-height: 1.5; margin: 24px 0 12px; }
+.chapter-content.meetup-detail pre,
+.chapter-content.meetup-detail code { font-size: 0.95em; }
+.meetup-description img { max-width: 100%; height: auto; }
+.meetup-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 16px; }
+.meetup-gallery a { display: grid; place-items: center; padding: 8px; background: #fff; border: 1px solid #ddd; }
+.meetup-gallery img { display: block; width: 100%; height: 220px; object-fit: contain; }
+.meetup-photo-link { cursor: zoom-in; }
+.meetup-pagination { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 48px; }
+.meetup-detail > h1 + .meetup-pagination { margin-top: 24px; margin-bottom: 32px; }
+.meetup-pagination .button { white-space: normal; text-align: center; }
+.meetup-next { margin-left: auto; }
 .chapter-pathway h2 { min-height: 2em; }
 .chapter-pathway .button { margin-top: auto; margin-bottom: 24px; }
 .chapter-nav {
