@@ -13,13 +13,9 @@
 {% endif %}
   <div class="header__menu-wrapper">
     <div class="header__inner">
-      {% if page.section != 'conference' %}
       <a href="{{ '/' | relative_url }}" class="logo header__logo" aria-label="OWASP Israel home">
         <img src="{{ '/assets/img/owasp-israel-logo.png' | relative_url }}" alt="OWASP Israel" style="width: 100%; height: 100%; object-fit: contain; object-position: left center;">
       </a>
-      {% else %}
-      <a href="{{ '/' | relative_url }}" class="logo header__logo" aria-label="OWASP Israel home" style="display: flex; align-items: center; color: inherit; font-size: 28px; font-weight: 600; text-decoration: none;">OWASP Israel</a>
-      {% endif %}
       <nav class="mainmenu header__menu" aria-label="Main navigation">
         <ul class="mainmenu__list">
           {% for menu in navigation %}
