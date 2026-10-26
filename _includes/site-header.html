@@ -13,7 +13,7 @@
 {% endif %}
   <div class="header__menu-wrapper">
     <div class="header__inner">
-      {% if page.section == 'chapter' %}
+      {% if page.section != 'conference' %}
       <a href="{{ '/' | relative_url }}" class="logo header__logo" aria-label="OWASP Israel home">
         <img src="{{ '/assets/img/owasp-israel-logo.png' | relative_url }}" alt="OWASP Israel" style="width: 100%; height: 100%; object-fit: contain; object-position: left center;">
       </a>
